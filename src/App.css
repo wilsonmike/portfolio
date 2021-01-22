@@ -1,6 +1,5 @@
 .nav-leader {
   display: flex;
-  flex-direction: row;
 }
 .nav-list {
   display: flex;
@@ -8,5 +7,43 @@
 }
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+.nav-leader {
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(28, 25, 45, 1) 100%
+  );
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.custom-shape-divider-bottom-1611350163 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.section {
+  height: 25vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(28, 25, 45, 1) 100%
+  );
+}
+.card {
+  border: none;
 }

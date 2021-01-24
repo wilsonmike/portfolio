@@ -3,40 +3,68 @@ import './App.css';
 function App() {
   return (
     <div>
-      <header>
-        
-      </header>
-      <div className="mid-main">
-      <div className="nav-leader">
-         
-         <h3>Mike</h3>
-           <nav className="nav-list">
-             <a className="nav-link active" href="#">Home</a>
-             <a className="nav-link" href="#">Work</a>
-             <a className="nav-link" href="#">Resume</a>
-           </nav>
-       </div>
-            <div class="card-deck">
-        <div class="card">
-          {/* <img src="..." class="card-img-top" alt="..." /> */}
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <main>
+        <section className="glass">
+          <div className="dashboard">
+            <div className="user">
+              <h3>Mike Wilson</h3>
+              <p>Dev with design chops</p>
+            </div>
+            <div className="links">
+            <div className="link">
+              <h2>Home</h2>
+            </div>
+            <div className="link">
+              <h2>Work</h2>
+            </div>
+            <div className="link">
+              <h2>Resume</h2>
+            </div>
+            <div className="link">
+              <h2>Contact</h2>
+            </div>
+            </div>
+            <div className="linked">
+              <h2>LinkedIn</h2>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          {/* <img src="..." class="card-img-top" alt="..."/> */}
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div className="projects">
+            <div className="status">
+              Completed Projects
+            </div>
+            <div className="cards">
+              <div className="card">
+                <div className="project-info">
+                  <h2>UnCorkd</h2>
+                  <p>Angular, Firebase, PostgreSQL</p>
+                </div>
+                <h2 className="percentage">Live Project</h2>
+              </div>
+              <div className="card">
+                <div className="project-info">
+                  <h2>UnCorkd</h2>
+                  <p>Angular, Firebase, PostgreSQL</p>
+                </div>
+                <h2 className="percentage">Live Project</h2>
+              </div>
+              <div className="card">
+                <div className="project-info">
+                  <h2>UnCorkd</h2>
+                  <p>Angular, Firebase, PostgreSQL</p>
+                </div>
+                <h2 className="percentage">Live Project</h2>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>  
+      </main>
+      <div className="blob1">
       </div>
-      </div>
-     
+      <div className="blob2"></div>
     </div>
+      
+    
+  
   );
 }
 

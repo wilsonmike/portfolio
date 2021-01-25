@@ -1,4 +1,8 @@
 import './App.css';
+import home from './assets/paper-plane.svg';
+import work from './assets/phone-call.svg';
+import resume from './assets/write.svg'; 
+import contact from './assets/satellite-dish.svg';
 
 function App() {
   return (
@@ -12,15 +16,19 @@ function App() {
             </div>
             <div className="links">
             <div className="link">
+              <img className="nav-icons" src={home} alt="Home Icon"/>
               <h2>Home</h2>
             </div>
             <div className="link">
+            <img className="nav-icons" src={work} alt="Work Icon"/>
               <h2>Work</h2>
             </div>
             <div className="link">
+            <img className="nav-icons" src={resume} alt="Resume Icon"/>
               <h2>Resume</h2>
             </div>
             <div className="link">
+            <img className="nav-icons" src={contact} alt="Contact Icon"/>
               <h2>Contact</h2>
             </div>
             </div>

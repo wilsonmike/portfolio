@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 main {
   min-height: 100vh;
@@ -55,6 +56,10 @@ main {
   bottom: 5%;
   left: 10%;
 }
+.branding {
+  height: 5rem;
+  width: 5rem;
+}
 .dashboard {
   flex: 1;
   display: flex;
@@ -71,12 +76,16 @@ main {
 }
 .link {
   display: flex;
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
   padding: 1rem 5rem;
   align-items: center;
 }
 .link h2 {
   padding: 0rem 0.5rem;
+  font-size: 1.5rem;
+}
+.bio {
+  font-size: 0.8rem;
 }
 .projects {
   flex: 2;
@@ -84,4 +93,16 @@ main {
 .nav-icons {
   height: 3rem;
   width: 3rem;
+}
+.linkedin {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.linkin {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.socials {
+  text-decoration: none;
+  color: black;
 }

@@ -45,9 +45,16 @@ function App() {
           </div>
           <div className="projects">
             <div className="status">
-              Completed Projects
+              <h1>Completed Projects</h1>
             </div>
             <div className="cards">
+              <div className="card">
+                <div className="project-info">
+                  <h2>UnCorkd</h2>
+                  <p>Angular, Firebase, PostgreSQL</p>
+                </div>
+                <h2 className="percentage">Live Project</h2>
+              </div>
               <div className="card">
                 <div className="project-info">
                   <h2>UnCorkd</h2>

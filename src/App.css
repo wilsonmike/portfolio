@@ -127,4 +127,17 @@ main {
   margin: 1rem 0rem;
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  justify-content: space-between;
+}
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.percentage {
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(to right top, #426696, #6cdbeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

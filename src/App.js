@@ -11,14 +11,14 @@ import uncorkd from './assets/cork-icons.svg';
 import study from './assets/open-book.svg';
 import virus from './assets/virus.svg'; 
 import brunch from './assets/recipe-book.svg';
-
+ 
 function App() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
-
+ 
   const updateMedia = () => {
     setDesktop(window.innerWidth > 1450);
   };
-
+ 
   useEffect(() => {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
@@ -144,5 +144,7 @@ function App() {
   </div>
 );
 }
-
+ 
 export default App;
+ 
+

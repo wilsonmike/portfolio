@@ -8,6 +8,8 @@ import linkedin from './assets/linkedin.svg';
 import github from './assets/github.svg';
 import uncorkd from './assets/cork-icons.svg';
 import study from './assets/open-book.svg';
+import virus from './assets/virus.svg'; 
+import brunch from './assets/recipe-book.svg';
 
 function App() {
   return (
@@ -54,7 +56,7 @@ function App() {
               <img className="nav-icons" src={uncorkd} alt="UnCorkd"/>
                 <div className="project-info">
                   <h2>UnCorkd</h2>
-                  <p>Angular, Firebase, PostgreSQL</p>
+                  <p>Angular, Firebase, PostgreSQL Data</p>
                 </div>
                 <h2 className="percentage">Live Project</h2>
               </div>
@@ -67,16 +69,18 @@ function App() {
                 <h2 className="percentage">Live Project</h2>
               </div>
               <div className="card">
+                <img className="nav-icons" src={virus} alt="Virus Icon"/>
                 <div className="project-info">
                   <h2>Covidly</h2>
-                  <p>React, COVID-19 API, Data Visualization</p>
+                  <p>React, COVID-19 API, Data Visual</p>
                 </div>
                 <h2 className="percentage">Live Project</h2>
               </div>
               <div className="card">
+                <img className="nav-icons" src={brunch} alt="Brunchify logo"/>
                 <div className="project-info">
-                  <h2>UnCorkd</h2>
-                  <p>Angular, Firebase, PostgreSQL</p>
+                  <h2>Brunchify</h2>
+                  <p>Angular, Edamam API, Recipe App</p>
                 </div>
                 <h2 className="percentage">Live Project</h2>
               </div>
